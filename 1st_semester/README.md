@@ -18,7 +18,7 @@
 | 💻 [Programming for Engineering](./programming_for_engineering/) | Tuesday | In-Person | - | - | - | - | - | **9,00** | 🟢 Passed |
 | ➗ [Algebra](./Algebra/) | Wednesday | In-Person | - | - | - | - | - | **7,20** | 🟢 Passed |
 | ⚙️ [Engineering Practices](./engineering_practices/) | Thursday | In-Person | - | - | - | - | - | **6,80** | 🟢 Passed |
-| 🎓 [University Journey](./university_journey/) | Friday | Online | - | - | - | - | - | **8,10** | 🟢 Passed |
+| 🎓 [University Journey](./university_journey/) | Friday | Online | 8,10 |6,20 | 10 | - | - | **8,10** | 🟢 Passed |
 
 </div>
 
