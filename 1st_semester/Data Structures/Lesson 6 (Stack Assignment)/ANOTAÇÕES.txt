@@ -1,0 +1,7 @@
+Listas:
+
+Não encadeada (Estática) - [1, 2, 3, 4], adiciono e retiro de onde eu quero;
+
+Encadeada (Dinâmicas) - [1; ] -> [2; ] - Elemento e ponteiro, aponto para o que necessito modificar;
+
+Dupla encadeada (Dinâmicas) - [ ;1; ] -> <- [ ;2; ] - Mostra elemento, o próximo e o anterior.

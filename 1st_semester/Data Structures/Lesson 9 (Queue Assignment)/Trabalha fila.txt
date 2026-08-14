@@ -1,0 +1,110 @@
+#ABDIEL TORAZZI PAULINO
+
+#Importações
+import os #Limpar tela
+from collections import deque
+
+#Declarando fila
+fila = deque()
+
+#Declarando listas
+lista_sabores = ["BACON", "PICANHA", "COSTELA", "FRANGO", "PORCO", "CALABREZA"]
+lista_molhos = ["VERDE", "KETCHUP", "MAIONESE", "MOSTARDA", "BARBECUE", "ALHO"]
+lista_bebidas = ["COCA-COLA", "PEPSI", "GUARANÁ", "CERVEJA", "ÁGUA"]
+
+#Menu
+while True:
+    
+    print ("                                                                              Bite & Bun                                                                             ")
+    print ("Promoção do dia: Escolha o sabor, o molho e a bebida do seu lanche por apenas R$3,99!")
+
+    print ("\nDigite o número de acordo com a opção desejada:")
+    print ("\nFazer pedido: 1")
+    print ("Processar pedido: 2")
+    print ("Mostrar pedidos: 3")
+    print ("Encerrar programa: 4")
+
+    opcao = input("Digite o valor desejado: ")
+    #Programação
+    match opcao:
+        case '1':
+            os.system('cls')
+            while True:
+                print (f"Sabores disponíveis: {lista_sabores}.")
+                sabor   = input("Digite o sabor de hambúrguer desejado pelo cliente: ").upper()
+                if sabor not in lista_sabores:
+                    os.system('cls')
+                    print ("O sabor desejado não está no cardapio.")
+                    encerrar = input("Digite qualquer caractere para retornar ao menu: ")
+                    if encerrar != all:
+                        break
+                
+                os.system('cls')
+                print (f"Molhos disponíveis: {lista_molhos}.")
+                molho   = input("Digite o molho desejado pelo cliente: ").upper()
+                if molho not in lista_molhos:
+                    os.system('cls')
+                    print ("O molho desejado não está no cardapio.")
+                    encerrar = input("Digite qualquer caractere para retornar ao menu: ")
+                    if encerrar != all:
+                        break
+                
+                os.system('cls')
+                print (f"Bebidas disponíveis: {lista_bebidas}.")
+                bebida  = input("Digite a bebida desejada pelo cliente: ").upper()
+                if bebida not in lista_bebidas:
+                    os.system('cls')
+                    print ("A bebida desejado não está no cardapio.")
+                    encerrar = input("Digite qualquer caractere para retornar ao menu: ")
+                    if encerrar != all:
+                        break
+                else:
+                    pedido = (f"Sabor: {sabor}. Molho: {molho}. Bebida: {bebida}.")
+
+                    fila.append(pedido)
+                    break
+
+        case '2':
+            os.system('cls')
+            while True:
+                    if len(fila) == 0:
+                        os.system('cls')
+                        print ("A fila de pedidos está vazia.")
+                        encerrar = input("Digite qualquer caractere para retornar ao menu: ")
+                        if encerrar != all:
+                            break
+                    else:      
+                        os.system('cls')
+                        print ("Próximo pedido a ser processado: ", fila[0])
+
+                        confirmacao = input ("Digite 'Ok' para remover o pedido do cardápio, ou qualquer outro caractere para retornar ao menu: ")
+                        if confirmacao.lower() == 'ok':
+                            fila.popleft()
+
+                        else:
+                            break
+
+        case '3':
+            os.system('cls')
+            while True:
+                if len(fila) == 0:
+                        print ("A fila está vazia.")
+                        encerrar = input("Digite qualquer caractere para retornar ao menu: ")
+                        if encerrar != all:
+                             break
+                else:
+                    print ("Pedidos na fila: ", list(fila))
+                    encerrar = input("Digite qualquer caractere para retornar ao menu: ")
+                    if encerrar != all:
+                        break
+
+        case '4':
+            break
+        
+        case _:
+            os.system('cls')
+            while True:
+                print ("Por favor, escolha uma opção válida!")
+                encerrar = input("Digite qualquer caractere para retornar ao menu: ")
+                if encerrar != all:
+                        break

@@ -1,0 +1,26 @@
+Comando .upper -> Converte uma cadeia de texto para letras maiúsculas.
+
+Ex: sexo = input("Digite "M" para masculino e "F" para feminino: ")
+
+if sexo.upper == "M": {
+	...
+}
+
+Lista -> Forma mais flexível, podendo ter mais de um tipo de informação.
+Vetor -> Forma ordenada de lista com informações de mesmo tipo.
+
+.append -> Inserir dado em uma lista.
+
+print("n/lista de pessoas.") -> Quebra a linha (lista_pessoas
+
+
+import os
+os.system('cls') -> Limpar tela no programa.
+
+.insert('posição', 'valor') -> Coloca elementos na posição que desejo
+
+.index -> Retorna a posição do elemento
+
+.remove -> Remover
+
+.pop -> Remove a posição
