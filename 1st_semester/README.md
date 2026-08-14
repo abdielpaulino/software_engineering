@@ -14,11 +14,11 @@
 
 | Subject | Day | Type | Grade 1 | Grade 2 | Grade 3 | Grade 4 | N -1 | Average | Status |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 🗂️ [Data Structures](./data_structures/) | Monday | In-Person | - | - | - | - | - | **9,50** | 🟢 Passed |
-| 💻 [Programming for Engineering](./programming_for_engineering/) | Tuesday | In-Person | - | - | - | - | - | **9,00** | 🟢 Passed |
-| ➗ [Algebra](./Algebra/) | Wednesday | In-Person | - | - | - | - | - | **7,20** | 🟢 Passed |
-| ⚙️ [Engineering Practices](./engineering_practices/) | Thursday | In-Person | - | - | - | - | - | **6,80** | 🟢 Passed |
-| 🎓 [University Journey](./university_journey/) | Friday | Online | 8,10 |6,20 | 10 | - | - | **8,10** | 🟢 Passed |
+| 🗂️ [Data Structures](./Data%20Structures/) | Monday | In-Person | - | - | - | - | - | **9,50** | 🟢 Passed |
+| 💻 [Programming for Engineering](./Programming%20for%20Engineering/) | Tuesday | In-Person | - | - | - | - | - | **9,00** | 🟢 Passed |
+| ➗ Algebra | Wednesday | In-Person | - | - | - | - | - | **7,20** | 🟢 Passed |
+| ⚙️ Engineering Practices | Thursday | In-Person | - | - | - | - | - | **6,80** | 🟢 Passed |
+| 🎓 University Journey | Friday | Online | 8,10 |6,20 | 10 | - | - | **8,10** | 🟢 Passed |
 
 </div>
 
